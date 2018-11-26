@@ -1,0 +1,6 @@
+if BOARD_ICE40UP5K_JIVE
+
+config BOARD
+	default "ice40up5k_jive"
+
+endif

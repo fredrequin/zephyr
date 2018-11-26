@@ -1,0 +1,11 @@
+identifier: ice40up5k_jive
+name: Lattice Semiconductor ICE40UP5K with JiVE target
+type: mcu
+arch: riscv32
+toolchain:
+  - zephyr
+ram: 32
+testing:
+  ignore_tags:
+    - net
+    - bluetooth

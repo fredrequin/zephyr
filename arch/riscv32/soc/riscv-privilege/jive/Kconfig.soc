@@ -1,0 +1,13 @@
+# Kconfig - RISCV32_JIVE configuration options
+#
+# Copyright (c) 2018 Frédéric REQUIN
+#
+
+choice
+prompt "ICE40ULP JiVe system implementation"
+depends on SOC_SERIES_RISCV32_JIVE
+
+config SOC_RISCV32_JIVE
+	bool "ICE40ULP JiVe system implementation"
+
+endchoice

@@ -1,0 +1,11 @@
+# Kconfig - RISCV32_JIVE implementation
+#
+# Copyright (c) 2018 Frédéric REQUIN
+#
+
+config SOC_SERIES_RISCV32_JIVE
+	bool "ICE40ULP JiVe implementation"
+	depends on RISCV32
+	select SOC_FAMILY_RISCV_PRIVILEGE
+	help
+	Enable support for ICE40ULP JiVe
